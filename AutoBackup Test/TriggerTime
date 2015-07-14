@@ -1,0 +1,12 @@
+#Persistent
+SetTimer, CheckTime, 6000 ;check time every minute
+Return
+
+CheckTime:
+if (A_Hour = 00)
+ Copy
+Return
+
+Copy:
+ Msgbox Ecchime!
+return
